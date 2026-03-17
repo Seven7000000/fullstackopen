@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useMutation } from '@apollo/client'
+import { useMutation } from '@apollo/client/react'
 import { CREATE_BOOK, ALL_BOOKS, ALL_AUTHORS } from '../queries'
 import { updateCache } from '../App'
 

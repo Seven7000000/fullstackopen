@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import {
   ApolloClient,
-  ApolloProvider,
   InMemoryCache,
   createHttpLink,
   split,
 } from '@apollo/client'
+import { ApolloProvider } from '@apollo/client/react'
 import { setContext } from '@apollo/client/link/context'
 import { getMainDefinition } from '@apollo/client/utilities'
 import { GraphQLWsLink } from '@apollo/client/link/subscriptions'
