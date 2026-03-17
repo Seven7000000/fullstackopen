@@ -1,0 +1,19 @@
+{
+  "name": "unicafe-redux",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "redux": "^5.0.1"
+  },
+  "devDependencies": {
+    "deep-freeze": "^0.0.1",
+    "vitest": "^3.2.4"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "notes": [
+    {
+      "content": "a]n]ote from json server",
+      "id": 1
+    }
+  ],
+  "persons": [
+    {
+      "name": "Arto Hellas",
+      "number": "040-123456",
+      "id": 1
+    }
+  ]
+}
